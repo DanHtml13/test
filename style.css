@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:"Robot",Georgia, 'Times New Roman', Times, serif;
+    margin: 0;}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: green;
+}
+button:hover{
+    background-color:rgb(11, 36, 11)
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: chartreuse;}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:green
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(12, 150, 12);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0,0,0,0.5),
+        rgb(0,0,0,0.5)
+    )
+    ,url("media/1_EKnyqZYItiWbE79182ZjKw.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+
+#Sobre_Nosotros .container{
+    text-align: center;
+    padding: 100px 12px;
+    flex-direction: columns
+    
+}
+
+#Our_service{
+    text-align: center;
+}
+
+#Our_service {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#Our_service {
+    padding: 150px 12px;
+}
+
+#Our_service h2{
+    margin-top: 0;
+}
+
+#Our_service p{
+    display: none;
+}
+
+#Our_service.carta{
+    background-position: center center;
+background-size: cover;
+
+}
+
+
+
+.carta:first-child{
+background-image:linear-gradient(
+    0deg,
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+)
+,url("media/Servicios\ informaticos.jpg");
+padding: 50px;
+margin: 20px;
+border-radius: 15px;
+
+}
+
+.carta:nth-child(2){
+    background-image:linear-gradient(
+    0deg,
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+)
+,url("media/Cómo-vender-servicios-contables.jpg");
+padding: 50px;
+margin: 20px;
+border-radius: 15px; 
+
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(
+    0deg,
+    rgb(0,0,0,0.5),
+    rgb(0,0,0,0.5)
+)
+,url("media/Cómo-ofrecer-servicios-contables.jpg");
+padding: 50px;
+margin: 20px;
+border-radius: 15px; 
+
+}
+
+#Brindamos{
+    text-align: center;
+}
